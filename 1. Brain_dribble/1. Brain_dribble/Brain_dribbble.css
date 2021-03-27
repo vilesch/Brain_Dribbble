@@ -1,0 +1,123 @@
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Helvetica, sans-serif;
+}
+
+.container__title {
+  border: 1px gray;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.h1__title {
+  color: black;
+  font-size: 2rem;
+  padding: 10px 20px;
+}
+
+.h3__title {
+  color: rgb(119, 114, 114);
+  font-size: 1em;
+  margin-bottom: 70px;
+}
+/*font-weight: 100vh;*/
+
+/*main box with the 4 boxes inside*/
+
+.container__boxes {
+  margin-top: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+/*differece space between x center*/
+.box {
+  flex: 1;
+  border: rgb(216, 214, 214) solid 1px;
+  border-radius: 35px;
+  padding: 2rem;
+  margin: 0 15px;
+  align-items: flex-start;
+  position: relative;
+}
+
+img {
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  width:65%; 
+  max-width:100%;
+  display: inline-block;
+  transform: translate(-110px,-100%);
+  box-shadow: 0px 0px 10px 7px rgb(221, 220, 220);
+}
+
+#blue {
+  box-shadow: rgb(203, 203, 250) 0px 0px 10px 7px ;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+h3, p + ul {
+  text-align: left;
+  padding: 1px;
+  font-size: 1rem;
+}
+
+sup {
+  color:rgb(119, 114, 114)
+}
+
+sub {
+  color:rgb(119, 114, 114)
+}
+
+p {
+  font-size: .9rem;
+  color:rgb(119, 114, 114);
+  padding-top: 15px;
+}
+
+.box2 {
+  border: 1px solid rgb(60, 60, 247);
+  box-shadow: 0 0 10px 2px rgb(195, 195, 245);
+}
+
+ul{
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+ul li:before {
+  content: '✅';
+}
+
+button {
+  font-weight: 600;
+  color:white;
+  border-radius: 50px;
+  background-color: RGB(79, 77, 254);
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  position: absolute;
+}
+/*dont know why it still moves with the screen*/
+/*dont know how to manage box heights.*/
